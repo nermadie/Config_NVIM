@@ -59,6 +59,6 @@
 --         {keymap = '<leader>5'},
 --     },
 -- })
-require('vim-floaterm').setup({
-floaterm_keymap_toggle = '<F12>'
-})
+-- require('vim-floaterm').setup({
+-- floaterm_keymap_toggle = '<F12>'
+-- })

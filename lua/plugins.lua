@@ -19,5 +19,5 @@ return require('packer').startup(function()
   --LSP
   use { 'neoclide/coc.nvim', branch = 'release' }
   --Terminal
-  use 'voldikss/vim-floaterm'
+  -- use 'voldikss/vim-floaterm'
 end)

@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "C:\\Users\\minhh\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\minhh\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\minhh\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\minhh\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
-local install_cpath_pattern = "C:\\Users\\minhh\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
+local package_path_str = "/home/nermadie/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/nermadie/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/nermadie/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/nermadie/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/nermadie/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,57 +76,52 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["coc.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
   ["dracula.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dracula.nvim",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
   nerdTree = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdTree",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/nerdTree",
     url = "https://github.com/preservim/nerdTree"
   },
   ["nerdtree-buffer-ops"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdtree-buffer-ops",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/nerdtree-buffer-ops",
     url = "https://github.com/PhilRunninger/nerdtree-buffer-ops"
   },
   ["nerdtree-git-plugin"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdtree-git-plugin",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin",
     url = "https://github.com/Xuyuanp/nerdtree-git-plugin"
   },
   ["nerdtree-visual-selection"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdtree-visual-selection",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/nerdtree-visual-selection",
     url = "https://github.com/PhilRunninger/nerdtree-visual-selection"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["vim-devicons"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
-  },
-  ["vim-floaterm"] = {
-    loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-floaterm",
-    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-nerdtree-syntax-highlight"] = {
     loaded = true,
-    path = "C:\\Users\\minhh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-nerdtree-syntax-highlight",
+    path = "/home/nermadie/.local/share/nvim/site/pack/packer/start/vim-nerdtree-syntax-highlight",
     url = "https://github.com/tiagofumo/vim-nerdtree-syntax-highlight"
   }
 }

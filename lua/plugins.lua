@@ -14,7 +14,7 @@ return require('packer').startup(function()
   --treesitter - highlight code structure
   use({
     'nvim-treesitter/nvim-treesitter',
-    run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    -- run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
   })
   --LSP
   use { 'neoclide/coc.nvim', branch = 'release' }
